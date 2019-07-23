@@ -1,7 +1,9 @@
+#include <sys/fcntl.h> 
+#include <sys/stat.h>
+#include <sys/ioctl.h>      
+#include <unistd.h>     
 #include <stdio.h>
 #include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
 
